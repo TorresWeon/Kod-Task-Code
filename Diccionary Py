@@ -1,0 +1,9 @@
+Int_Dict = {
+            "CRINGE": "Sinónimo de vergüenza ajena",
+            "LOL": "Suele ser usado por angloparlantes, expresa el sentimiento de risa o sarcasmo"
+            }
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+if word in Int_Dict.keys():
+    print(Int_Dict[word])
+else:
+    print("Esta palabra no se a encontrado")
